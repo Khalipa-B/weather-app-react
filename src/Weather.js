@@ -83,6 +83,16 @@ export default function WeatherSearch() {
       )}
 
       {error && <p style={{ color: "red" }}>{error}</p>}
+      <p>
+        <a
+          href="https://github.com/Khalipa-B/weather-app-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Source Code
+        </a>{" "}
+        by Khalipa Baba
+      </p>
     </div>
   );
 }
